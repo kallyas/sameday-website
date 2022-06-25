@@ -1,0 +1,24 @@
+{
+  "name": "sameday-website",
+  "version": "1.0.0",
+  "description": "<small>SAMEDAY LABORATORIES & DIAGNOSTICS</small>",
+  "scripts": {
+    "prod":"cd server && yarn && yarn start",
+    "build":"cd server && npm install && npm start",
+    "dev": "concurrently \"cd Client && npm start\" \"cd server && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanepou22/sameday-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanepou22/sameday-website/issues"
+  },
+  "homepage": "https://ivanepou22.github.io/sameday-website/",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
